@@ -1,0 +1,19 @@
+# Ignorar caches e arquivos tempor rios do Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Ignorar dados tempor rios ou sens¡veis
+data/*.zip
+data/*.xlsx
+data/*.json
+
+# Ignorar arquivos de ambiente virtual
+.env
+.venv/
+venv/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
